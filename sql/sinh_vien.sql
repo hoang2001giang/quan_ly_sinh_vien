@@ -1,0 +1,13 @@
+CREATE DATABASE sinhvien;
+USE sinhvien;
+
+CREATE TABLE tinh (
+    province_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    province_name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE sv (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    st_name VARCHAR(255) NOT NULL,
+    home_town_id VARCHAR(255) NOT NULL
+);
